@@ -6,9 +6,9 @@ const initialState = {
   isAuthenticated: !!localStorage.getItem('token'),
   loading: false,
   error: null,
-  passwordChangeLoading: false,
-  passwordChangeError: null,
-  passwordChangeSuccess: null,
+  // passwordChangeLoading: false,
+  // passwordChangeError: null,
+  // passwordChangeSuccess: null,
 };
 
 const authSlice = createSlice({
